@@ -1,0 +1,37 @@
+[
+    {
+        "id": 1,
+        "first_name": "Johan",
+        "last_name": "Blenkharn",
+        "email": "jblenkharn0@imageshack.us",
+        "gender": "Male"
+    },
+    {
+        "id": 2,
+        "first_name": "Cal",
+        "last_name": "Peppin",
+        "email": "cpeppin1@pinterest.com",
+        "gender": "Female"
+    },
+    {
+        "id": 3,
+        "first_name": "Datha",
+        "last_name": "Cowtherd",
+        "email": "dcowtherd2@jiathis.com",
+        "gender": "Female"
+    },
+    {
+        "id": 4,
+        "first_name": "Bill",
+        "last_name": "Glasby",
+        "email": "bglasby3@chron.com",
+        "gender": "Male"
+    },
+    {
+        "id": 5,
+        "first_name": "Sherrie",
+        "last_name": "Scranedge",
+        "email": "sscranedge4@tripod.com",
+        "gender": "Female"
+    }
+]
