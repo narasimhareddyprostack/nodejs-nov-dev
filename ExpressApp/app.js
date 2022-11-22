@@ -1,24 +1,20 @@
 const express = require('express')
+const dotenv = require('dotenv')
+const morgan = require('morgan')
 const app = express()
+
+dotenv.config({ path: './config.env' })
+let PORT = process.env.PORT
+
+app.use(morgan('tiny'))
+app.use("/user", require('./userRouter'))
 /*
-API URL:localhost:8080
-Method:GET
-Req Fields:None
-Access Type:Public
+URL: http://localhost:8080/
 */
-app.get("/", (req, res) => {
-    res.send("Hello,Good Evening")
-})
-/*
-API URL:localhost:8080/about
-Method:GET
-Req Fields:None
-Access Type:Public
-*/
-app.get("/about", (req, resp) => {
-    resp.send('<h1>Hello,Good Evening - About</h1>')
-})
-app.listen(8080, "127.99.88.55", (err) => {
+
+
+
+app.listen(PORT, (err) => {
     if (err) throw err
-    console.log(`Server is Running...`)
+    console.log(`Server Running on http://localhost:${PORT}`)
 })
