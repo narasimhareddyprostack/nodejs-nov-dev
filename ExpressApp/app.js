@@ -1,4 +1,6 @@
-const express = require('express')
+import express from 'express'  //ES6
+//const express = require('express')
+
 const dotenv = require('dotenv')
 const morgan = require('morgan')
 const app = express()
