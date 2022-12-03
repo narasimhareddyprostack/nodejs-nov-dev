@@ -1,0 +1,3 @@
+User-CRUD>npm i express mongoose cors morgan dotenv nodemon jsonwebtoken
+
+ "type": "module",
